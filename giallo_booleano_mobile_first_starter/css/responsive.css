@@ -65,14 +65,37 @@
     }
 }
 
+/*seconda task*/
 @media screen and (min-width:992px) {
     .recipe-info {
         flex-direction: column;
         
         flex-wrap: wrap;
-        gap:80px;
+        gap:40px;
         display: flex;
         justify-content: center;
     }
 
+}
+
+/*terza task*/
+@media screen and (min-width:992px) {
+    .recipe-card {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+/*quarta task*/
+@media screen and (min-width:992px) {
+    .btn .label {
+        display: inline;
+    }
+}
+/*quinta task*/
+@media screen and (min-width:992px) {
+    footer {
+    display: flex;
+    justify-content: space-between;
+    }
 }
