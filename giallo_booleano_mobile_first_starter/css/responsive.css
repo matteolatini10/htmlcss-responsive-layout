@@ -9,9 +9,17 @@
 
 }
 
+/*terza task*/
 @media screen and (min-width:768px) {
     .recipe-name::after {
         content:"(Dolce Tradizionale)";
 
+    }
+}
+
+/*seconda task*/
+@media screen and (min-width:768px) {
+    main {
+        padding: 40px;
     }
 }
