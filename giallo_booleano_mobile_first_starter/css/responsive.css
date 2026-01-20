@@ -1,0 +1,17 @@
+
+/*prima task*/
+@media screen and (min-width:768px){
+    #topbar {
+        justify-content: flex-start;
+        
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+    .recipe-name::after {
+        content:"(Dolce Tradizionale)";
+
+    }
+}
