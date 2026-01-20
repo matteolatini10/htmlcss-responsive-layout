@@ -15,11 +15,24 @@
         content:"(Dolce Tradizionale)";
 
     }
+
 }
 
-/*seconda task*/
+
+/*quarta task*/
 @media screen and (min-width:768px) {
-    main {
-        padding: 40px;
+    #logo {
+        font-size: 80px;
+    }
+}
+
+/*quinta task*/
+@media screen and (min-width:768px) {
+    .recipe-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:80px;
+        display: flex;
+        justify-content: center;
     }
 }
