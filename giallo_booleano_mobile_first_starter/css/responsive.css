@@ -36,3 +36,43 @@
         justify-content: center;
     }
 }
+
+/*sesta task*/
+@media screen and (min-width:768px) {
+    .btn {
+        width: 150px;
+    }
+}
+
+/*settima task*/
+@media screen and (min-width:768px) {
+    .ads {
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .clearfix {
+        display: inline-block;
+    }
+}
+
+/*grandezza tablet*/
+/*prima task*/
+@media screen and (min-width:992px) {
+    .recipe-name {
+        font-size:40px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .recipe-info {
+        flex-direction: column;
+        
+        flex-wrap: wrap;
+        gap:80px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
